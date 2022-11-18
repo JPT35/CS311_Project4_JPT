@@ -1,0 +1,26 @@
+#container{
+display: grid;
+grid-template-columns: [col-start] auto [line1] auto [line2] auto [line3] auto [line4] auto [line5] auto [col-end];
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blanchedalmond;
+
+}
+#bizet-container{
+    display: grid;
+grid-template-columns: [col-start] auto [line1] auto [line2] auto [line3] auto [line4] auto [line5] auto [col-end];
+}
+#bizet-bio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blanchedalmond;
+}
+
+#mozart-bio{
+    display: grid;
+grid-template-columns: [col-start] auto [line1] auto [line2] auto [line3] auto [line4] auto [line5] auto [col-end];
+}
